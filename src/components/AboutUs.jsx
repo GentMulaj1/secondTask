@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './AboutUs.css'
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
-import MainAsk from './MainAsk';
 import Qa from './Qa';
 
 const aboutUs = [
@@ -27,17 +26,6 @@ const aboutUs = [
 
 const AboutUs = () => {
     const [open, setOpen] = useState(false);
-
-    const handleOpen = (index) => {
-        setOpen(!open)
-
-        if (index === open) {
-            setOpen(null); // Close the currently open div
-          } else {
-            setOpen(index); // Open the selected div
-          } 
-    }
-
 
   return (
     <div className='MainAsk AboutUs'>
