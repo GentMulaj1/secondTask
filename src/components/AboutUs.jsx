@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import './AboutUs.css'
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import Qa from './Qa';

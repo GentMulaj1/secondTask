@@ -7,7 +7,6 @@ const CardTabs = ({
         for1Year,
         storage, 
         bandwidth, 
-        domains,
         SSLCertificate,
         CPU,
         RAM,
