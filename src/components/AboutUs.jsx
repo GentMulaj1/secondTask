@@ -22,11 +22,8 @@ const aboutUs = [
     },
     
   ]
-  
 
 const AboutUs = () => {
-    const [open, setOpen] = useState(false);
-
   return (
     <div className='MainAsk AboutUs'>
         <div className='about' >
