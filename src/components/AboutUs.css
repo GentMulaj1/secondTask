@@ -1,0 +1,45 @@
+
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 20px;
+}
+
+.blueIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border: 2px solid rgb(33,115,239);
+    border-radius: 50%;
+    color: rgb(33,115,239);
+}
+
+.blueIcon > svg {
+    width: 40px;
+    height: 40px;
+}
+
+.aboutUs__articles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aboutUs__title {
+    font-size: 24px;
+    align-self: flex;
+}
+
+.aboutUs__article {
+    color: gray;
+}
+
+.about__question {
+    border-radius: 0px !important;
+}

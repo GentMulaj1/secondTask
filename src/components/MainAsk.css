@@ -1,0 +1,25 @@
+.MainAsk {
+    margin: 20px 0px;
+}
+
+.question {
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.descriptionAsk {
+    margin: 20px 0px;
+    padding: 20px 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid gray;
+    font-size: 14px;
+    color: gray;
+}

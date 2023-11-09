@@ -1,0 +1,74 @@
+.CardTabs {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background-color: white;
+    position: relative;
+    max-width: 450px;
+    min-width: 300px;
+
+}
+
+.domain {
+    font-size: 20px;
+}
+
+.allPrice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.for1Year {
+    color: lightgray;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.buyNow {
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(88,150,245);
+    color: rgb(88,150,245);
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+ 
+
+.marginTop {
+    width: 100%;
+    margin-top: auto;
+    padding-top: 10px;
+}
+
+
+.storage {
+    font-size: 14px;
+    color: gray;
+}
+
+.ssl {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .CardTabs {
+        max-width: 100%;
+    }
+    
+}

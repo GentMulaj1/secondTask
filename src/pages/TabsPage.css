@@ -1,0 +1,43 @@
+.CardsTabs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.randomtest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+    font-size: 14px;
+}
+
+.randomtest > * {
+    list-style: none;
+    padding: 20px;
+}
+
+.react-tabs__tab--selected {
+    border: none !important;
+    outline: none;
+    border-bottom: 2px solid rgb(61,132,242) !important;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .CardsTabs {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .CardsTabs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .CardsTabs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
